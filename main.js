@@ -39,7 +39,7 @@ function scrollBehavior() {
     }
 
     // project
-    if (scrollY > 3200) {
+    if (scrollY > 3500) {
         this.document.querySelector(".project-container-txt").style.transform = "translateY(0px)";
         this.document.querySelector(".project-container-txt").style.opacity = 1;
     } else {
@@ -49,7 +49,7 @@ function scrollBehavior() {
 
     // plan
 
-    if (scrollY > 4200) {
+    if (scrollY > 4500) {
         if (trig_plan == false) {
             console.log("triggered on");
             trig_plan = true;
@@ -66,7 +66,7 @@ function scrollBehavior() {
                 element.style.transform = "translateX(0px)";
             }
         }
-    } else if (scrollY < 4200) {
+    } else {
         if (trig_plan == true) {
             console.log("triggered off");
             trig_plan = false;

@@ -39,7 +39,7 @@ function scrollBehavior() {
     }
 
     // project
-    if (scrollY > 3500) {
+    if (scrollY > 3800) {
         this.document.querySelector(".project-container-txt").style.transform = "translateY(0px)";
         this.document.querySelector(".project-container-txt").style.opacity = 1;
     } else {

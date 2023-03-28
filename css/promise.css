@@ -1,0 +1,30 @@
+.promise-container {
+    position: relative;
+}
+
+.promise-container-img {
+    height: 500px;
+    width: 100%;
+
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-position: center center;
+
+    filter: brightness(0.5);
+}
+
+.promise-container-txt {
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    z-index: 100;
+
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
